@@ -45,6 +45,6 @@ taskInput.addEventListener('keypress', function (event) {
         }
     }
 });
-// window.addEventListener('beforeunload', function (e) {
-//     e.preventDefault();
-// })
+window.addEventListener('beforeunload', function (e) {
+    e.preventDefault();
+})
