@@ -1,0 +1,25 @@
+tsk {
+  text-wrap: wrap;
+}
+
+#taskList {
+  list-style: none;
+  border-bottom-width: 2px;
+  /* margin-left: 32px; */
+  font-family: cursive;
+}
+
+li {
+  margin-bottom: 12px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+input[type="checkbox"] {
+  margin-right: 7px;
+}
+
+button {
+  margin-left: 12px;
+  background-color: burlywood;
+}
